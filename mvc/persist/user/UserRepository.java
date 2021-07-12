@@ -1,6 +1,6 @@
 package Architect.mvc.persist.user;
 
-import org.springframework.stereotype.Repository;
+//import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
-@Repository
+//@Repository
 public class UserRepository {
 
     private Map<Long, User> userMap = new ConcurrentHashMap<>();
